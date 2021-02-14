@@ -1,6 +1,6 @@
 <template>
   <header class="bg-orange flex justify-between">
-    <img class="logo" src="~/assets/funda-logo.svg" alt="funda logo" />
+    <img class="logo" src="~/assets/funda-logo.svg" alt="funda logo" width="90" height="32" />
     <nav>
       <ul class="flex">
         <li><NuxtLink to="/">Home</NuxtLink></li>
@@ -9,9 +9,3 @@
     </nav>
   </header>
 </template>
-
-<style lang="postcss" scoped>
-.logo {
-  width: 90px;
-}
-</style>
