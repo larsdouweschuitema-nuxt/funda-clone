@@ -1,6 +1,6 @@
 <template>
   <header class="bg-orange flex justify-between">
-    <img class="logo" src="~/assets/funda-logo.svg" />
+    <img class="logo" src="~/assets/funda-logo.svg" alt="funda logo" />
     <nav>
       <ul class="flex">
         <li><NuxtLink to="/">Home</NuxtLink></li>
