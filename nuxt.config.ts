@@ -2,6 +2,9 @@ import { NuxtConfig } from '@nuxt/types'
 
 const config: NuxtConfig = {
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
     title: 'Search houses and appartments for sale in the Netherlands [funda]',
     meta: [
       { charset: 'utf-8' },
