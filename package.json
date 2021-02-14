@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "nuxt": "^2.14.12"
+  },
+  "devDependencies": {
+    "husky": "^5.0.9"
   }
 }
