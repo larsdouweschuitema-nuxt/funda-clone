@@ -16,6 +16,7 @@
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
     "@nuxt/typescript-build": "^2.0.4",
+    "@nuxtjs/pwa": "^3.3.5",
     "autoprefixer": "^9",
     "husky": "^5.0.9",
     "postcss": "^7",

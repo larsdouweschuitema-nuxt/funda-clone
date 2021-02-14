@@ -16,8 +16,14 @@ const config: NuxtConfig = {
       }
     ],
   },
-  buildModules: ['@nuxt/typescript-build', '@nuxtjs/tailwindcss'],
+  buildModules: ['@nuxt/typescript-build', '@nuxtjs/pwa', '@nuxtjs/tailwindcss'],
   components: true,
+  pwa: {
+    icon: false,
+    workbox: {
+      /* workbox options */
+    }
+  },
   loading: false,
   loadingIndicator: false,
   fetch: {
