@@ -2,7 +2,7 @@
   <header class="bg-orange flex justify-between">
     <img class="logo" src="~/assets/funda-logo.svg" />
     <nav>
-      <ul>
+      <ul class="flex">
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/login">Login</NuxtLink></li>
       </ul>
