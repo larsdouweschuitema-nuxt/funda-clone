@@ -7,6 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Commands](#commands)
+- [Server deployment](#server-deployment)
 - [Licenses](#licenses)
 
 ## Prerequisites
@@ -41,6 +42,14 @@ $ yarn build
 Start the production server (after running `yarn build`).
 
 ```
+$ yarn start
+```
+
+## Server deployment
+Build and start application for Production purposes
+
+```
+$ yarn build
 $ yarn start
 ```
 
