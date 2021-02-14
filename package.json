@@ -3,16 +3,19 @@
   "version": "1.0.2",
   "license": "MIT",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start": "nuxt start"
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start"
   },
   "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.1",
     "@nuxtjs/tailwindcss": "^3.4.2",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.14.12",
+    "@nuxt/typescript-build": "^2.0.4",
     "autoprefixer": "^9",
     "husky": "^5.0.9",
     "postcss": "^7",
