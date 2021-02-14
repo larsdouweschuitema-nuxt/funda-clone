@@ -19,9 +19,8 @@ const config: NuxtConfig = {
   buildModules: ['@nuxt/typescript-build', '@nuxtjs/pwa', '@nuxtjs/tailwindcss'],
   components: true,
   pwa: {
-    icon: false,
-    workbox: {
-      /* workbox options */
+    meta: {
+      theme_color: '#f7a100'
     }
   },
   loading: false,
